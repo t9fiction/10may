@@ -1,0 +1,274 @@
+body {
+  background: linear-gradient(32.64deg, #14004A 0%, #140017 33.84%, #170C29 81.29%, #150C40 100%);
+  background-size: cover;
+}
+html {
+  scroll-behavior: smooth;
+}
+.connect-wallet {
+  height: calc(100vh - 90px);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.App-header .col-md-12 {
+  display: flex;
+  align-items: center;
+}
+.nav-bar { margin-left: auto}
+.nav-bar a {
+  color: #ffffff;
+  font-size: 17px;
+  margin-left: 20px;
+}
+.nav-bar a.meta-btn {
+  color: #000;
+  padding: 7px 26px 8px;
+}
+.metamask {
+  max-width: 180px;
+  margin-bottom: 20px;
+}
+.about-me{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  color: #fff;
+  padding: 100px 0 0;
+}
+.whatwedo{
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  padding: 70px 0 0;
+}
+.graph-title {
+  margin: 0 0 19px;
+}
+.about-me .row,
+.whatwedo .row{ align-items: center}
+.side-image {
+  max-width: 100%;
+  width: 100%;
+}
+.project-wrapper { padding: 100px 0 0}
+.project-wrapper h4 {
+  margin-bottom: 10px;
+}
+.project-wrapper li {
+  position: relative;
+  margin-bottom: 15px;
+  padding-left: 45px;
+}
+.project-wrapper li,
+.project-wrapper strong{
+  text-align: left;
+}
+.project-wrapper li:before {
+  content: '';
+  position: absolute;
+  left: 1px;
+  top: 11px;
+  width: 20px;
+  height: 2px;
+  background-color: #ffffff;
+}
+.project-wrapper li:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 7px;
+  width: 9px;
+  height: 9px;
+  border-radius: 100%;
+  background-color: #ffffff;
+}
+.instructions {
+  padding-top: 50px;
+  text-align: left;
+  margin-bottom: 100px;
+}
+.project-wrapper p { margin-bottom: 20px}
+.project-wrapper strong {
+  display: block;
+  margin-bottom: 30px;
+}
+.list-style-none {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.instructions{
+  color: #fff;
+}
+
+.connect-wallet h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 20px;
+}
+.connect-wallet p {
+  font-size: 21px;
+  color: #fff;
+  margin-bottom: 30px;
+  line-height: 28px;
+  max-width: 60%;
+}
+.meta-btn {
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 50px;
+  padding: 9px 35px 11px;
+  border: none;
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: 20px;
+  transition: all 0.4s ease-in-out;
+  color: #000;
+}
+.meta-btn:hover {
+  opacity: 0.9;
+  box-shadow: 0 0 20px rgba(255,255,255,0.2);
+}
+/*account-action*/
+.account-action {
+  padding: 60px 0;
+}
+
+.account-action h2 {
+  color: #ffffff;
+  font-size: 22px;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  padding: 0 0 22px;
+  margin-bottom: 20px;
+}
+.account-action h3,
+.title{
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.account-action h4 {
+  color: #ffffff;
+  font-size: 34px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.application-form {
+  background-color: #000019;
+  box-shadow: 0 0 50px rgb(0 0 0 / 4%);
+  padding: 50px;
+  border-radius: 10px;
+}
+.application-form label {
+  color: #fff;
+}
+
+.white-text {
+  color: #fff;
+}
+
+.form-group { margin-bottom: 20px;}
+.form-control {
+  width: 100%;
+  height: 56px;
+  padding: 0 20px;
+  font-size: 16px;
+  border: 1px solid #42138b;
+  border-radius: 9px;
+  background: #000019;
+  resize: none;
+  color: #ffffff;
+}
+.application-form table tr th,
+.application-form table tr td {
+  background-color: transparent !important;
+}
+.App {
+  text-align: center;
+  padding: 100px 0 0;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  background-color: #0e031f;
+}
+.footer-content {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 70%;
+  padding: 60px 0 0;
+}
+.footer-content label,
+.footer-content p,
+.footer-content span {
+  color: #ffffff;
+}
+.footer-content img,
+.footer-content label  { margin-bottom: 20px;}
+.footer-content input { margin-bottom: 15px;}
+.footer-content .copyright {
+  padding: 6px 0 9px;
+  display: block;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  width: 100%;
+  font-size: 14px;
+  margin-top: 60px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-logo1{
+max-width: 10%;
+}
+.App-header {
+  background-color: #0e031f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px 0;
+  position: fixed;
+  text-align: left;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+a { text-decoration: none}
+
+.App-link {
+  color: #61dafb;
+}
+label {
+  float: left;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
