@@ -82,8 +82,8 @@ export const InfoForm = () => {
       // await checkOwner();
       // await sendApplication();
 
-      await sendApplication().then(() => {
-        if (flagValidation) {
+      if (flagValidation) {
+          sendApplication().then(() => {
           data.append('fileUploaded', fileUploaded);
           data.append('email', email);
           data.append('applicantName', applicantName);
@@ -96,12 +96,12 @@ export const InfoForm = () => {
           axios.post(Url + "add", data, { // receive two parameter endpoint url ,form data 
           })
             .then(res => { // then print response status
-              Swal.hideLoading();
+              // Swal.hideLoading();
               setAlreadySubmit(true);
               console.log(res.statusText)
             })
+          })
         }
-      })
       // if (!email || !amount || !country || !applicantName || !city || !industry) return;
     } else (
       Swal.fire("You don't have enough BUSD. You need 1 BUSD to apply")
